@@ -26,7 +26,6 @@ function App() {
     loadTurnFromStorage(validateTurn, provideDefaultTurn)
   )
 
-  // null => no winner yet, false => tie, or X-O if some turn won
   const [winner, setWinner] = useState(null)
   const [winnerCombo, setWinnerCombo] = useState(null)
 
